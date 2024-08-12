@@ -10,6 +10,7 @@ user_permissions contains permission if {
 	some permission in data.static.permissions[role]
 }
 
+
 default allow := false
 
 allow if input.action in user_permissions
